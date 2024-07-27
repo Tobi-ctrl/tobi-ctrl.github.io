@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html>
-	<body>
-		<h1>Smart Alarm Clock</h1>
-		<p>This is the home page for questions/feedback about my Android app "Smart Alarm Clock".</p>
-		<p></p>
-		<p>You can contact me by E-Mail: tmeinhardt1811@gmail.com</p>
-		<a href="https://play.google.com/store/apps/details?id=com.tobias.meinhardt.alarm_clock">App on Google Play</a>
-		<p></p>
-		<a href="privacy_policy.txt">Privacy Policy</a>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Alarm Clock</title>
+</head>
+<body>
+	<p>This is the home page for questions/feedback about my Android app "Smart Alarm Clock".</p>
+    <h1>Features</h1>
+    <ul>
+        <li>The alarm clock is configured once and is triggered by default from Monday to Friday. In the settings, the period can be extended to Monday to Saturday or Monday to Sunday.</li>
+        <li>Google Calendar Integration:
+            <ul>
+                <li>When activated in the settings (default), the calendar of the logged-in user is used to identify vacation days. The system searches for a configurable keyword in the title - "vacation" by default. Before configuration, logging in and synchronizing the calendar using the provided button are necessary. The two calendars for the next year are automatically updated on December 31st. If vacation days change, they can be manually synchronized again at any time.</li>
+                <li>The public Google calendar is used for the holidays in the country currently set on the smartphone. For Germany, the system also filters for holidays for the selected state in the settings; otherwise, the selection menu is deactivated.</li>
+            </ul>
+        </li>
+        <li>The system default ringtone is used. A selection is possible in the settings.</li>
+        <li>An alarm can be turned off or set to "Snooze" for 10 or 30 minutes via a notification on the lock screen. Alternatively, the alarm can also be turned off via the stop button in the app, which opens when the notification is tapped.</li>
+        <li>The next alarm can be skipped once via a button.</li>
+    </ul>
+
+    <h1>Notes</h1>
+    <ul>
+        <li>The set alarm time and all other settings are automatically saved.</li>
+        <li>In the app's operating system settings, notifications (including on the lock screen) must be allowed.</li>
+        <li>For some manufacturers' devices, additional settings need to be made for the app to prevent the operating system from closing the app and thus deleting the alarm from the system. Please follow the steps for the respective manufacturer at <a href="https://dontkillmyapp.com/">https://dontkillmyapp.com/</a>. In most cases, disabling the power-saving settings for the app is sufficient.</li>
+        <li>The public Google Calendar for holidays must be integrated into the user's Google Calendar. This can be checked in the calendar app via the menu icon. The "Holidays" checkbox must be selected there. Only for Germany: The state must be selected in the settings before synchronization.</li>
+    </ul>
+
+    <h1>Limitations</h1>
+    <p>Multiple alarms cannot be set.</p>
+	<p></p>
+	<h1>Contact</h1>
+	<p>You can contact me by E-Mail: tmeinhardt1811@gmail.com</p>
+	<p></p>
+	<h1>Privacy Policy</h1>
+	<a href="privacy_policy.txt">Privacy Policy</a>
+</body>
 </html>
